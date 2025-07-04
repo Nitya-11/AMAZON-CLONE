@@ -123,7 +123,7 @@ span {
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 } 
 
@@ -140,57 +140,11 @@ span {
 
 .panel-ops {
     width: 70%;
-    font-size: 0.85rem;
+    font-size: 0.90rem;
 }
 
 p{
     justify-content: space-between;
     font-style: normal;
-}
-
-/* hero - section */
-
-/* .hero-section {
-    background-image: url("hero_image.jpg");
-    background-size:cover;
-    height: 450px;
-} */
-
-.slideshow-container {
-  width: 100%;
-  max-width: 800px;
-  height: 350px;
-  margin: 30px auto;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-  background: #fff;
-}
-
-.slides {
-  width: 300%;
-  height: 100%;
-  display: flex;
-  transition: transform 0.5s;
-}
-
-.slide {
-  width: 100%;
-  flex-shrink: 0;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-input[type="radio"] {
-  display: none;
 }
 
